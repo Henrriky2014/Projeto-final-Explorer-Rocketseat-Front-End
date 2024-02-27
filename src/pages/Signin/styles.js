@@ -9,16 +9,17 @@ export const Container = styled.div`
     max-width: 364px;
     padding-top: 158px;
 
-    /* display: flex;
-    align-items: stretch;
-    
-    margin: 160px 48px 340px 64px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-
+    button {
+        height: 48px;
+        margin-bottom: 32px;
+    }
 `;
 
 export const Form = styled.form`
-    height: 100vh;
     width: 100%;
 
     display: flex;

@@ -2,7 +2,10 @@ import { BsFillHexagonFill } from "react-icons/bs";
 
 import { Input } from "../../components/Input";
 
+import { Link } from 'react-router-dom';
+
 import { Container, Form, LogoBox, InputContent } from "./styles";
+import { Button } from "../../components/Button";
 
 export function Signin() {
     return (
@@ -22,8 +25,10 @@ export function Signin() {
                     <label>Senha</label>
                     <Input placeholder="No mínimo 6 caracteres"/>
                 </ InputContent>
-
             </Form>
+                <Button title="Entrar"/>
+
+            <a>Criar uma conta</a>
         </Container>
     )
 }
