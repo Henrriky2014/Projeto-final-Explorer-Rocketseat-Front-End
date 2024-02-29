@@ -52,6 +52,7 @@ export const LogoBox = styled.div`
     }
 
     margin-bottom: 80px;
+    margin-right: auto;
 `;
 
 export const InputContent = styled.div`

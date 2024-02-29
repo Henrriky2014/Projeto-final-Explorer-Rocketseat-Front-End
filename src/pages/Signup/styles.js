@@ -2,16 +2,20 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 
-    display: flex;
     width: 100%;
     height: 100vh;
-    margin: 0 auto;
-    max-width: 364px;
-    padding-top: 158px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
+    
+    
+    max-width: 364px;
+    
+    margin: 0 auto;
+    padding-top: 158px;
+
 
     button {
         height: 48px;
@@ -52,6 +56,7 @@ export const LogoBox = styled.div`
     }
 
     margin-bottom: 80px;
+    margin-right: auto;
 `;
 
 export const InputContent = styled.div`
