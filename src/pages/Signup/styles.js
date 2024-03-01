@@ -2,16 +2,18 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 
+    width: 100%;
+    height: 100vh;
+
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    width: 100%;
-    height: 100vh;
+    justify-content: flex-start;
     
-    margin: 0 auto;
     
     max-width: 364px;
+    
+    margin: 0 auto;
     padding-top: 158px;
 
 
@@ -46,7 +48,7 @@ export const Form = styled.form`
 export const LogoBox = styled.div`
     font-family: "Roboto", sans-serif;
     font-weight: bold;
-
+    
     display: flex;
     align-items: center;
 
