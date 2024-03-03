@@ -45,6 +45,10 @@ export const HeaderMenu = styled.div`
         cursor: pointer;
     }
 
+    img {
+        cursor: pointer;
+    }
+
 `;
 
 export const LogoBox = styled.div`
@@ -72,3 +76,4 @@ export const LogoBox = styled.div`
 
 
 `;
+

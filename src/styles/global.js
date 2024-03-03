@@ -6,14 +6,14 @@ export default createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
     }
-
+    
     body {
         background: ${({ theme }) => theme.COLORS.DARK_400};
         color: ${({ theme }) => theme.COLORS.LIGHT_100};
-    
+        
         -webkit-font-smoothing: antialiased;
     }
-
+    
     body, input, button, textarea {
         font-family: "Poppins", sans-serif;
         font-size: 16px;

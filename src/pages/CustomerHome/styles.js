@@ -16,6 +16,11 @@ export const Container = styled.div`
     margin: 0 auto;
 
     background: ${({theme}) => theme.COLORS.DARK_400};
+
+    > p {
+        font-size: 18px;
+        font-weight: 500;
+    }
 `;
 
 export const Box = styled.div`
@@ -33,8 +38,9 @@ export const Box = styled.div`
 
     margin: 44px auto 62px;
 
-    border-radius: 12.92px;
+    border-radius: 13px;
 
+    
     > img {
         margin-left: -32px;
         margin-top: -24px;
@@ -48,7 +54,7 @@ export const Box = styled.div`
         h1 {
             font-family: "Poppins", sans-serif;
             
-            font-size: 16px;   
+            font-size: 18px;   
             font-weight: 600;
             
 
@@ -57,13 +63,34 @@ export const Box = styled.div`
 
         p {
             font-family: "Poppins", sans-serif;
-            
+            font-weight: 400;
             font-size: 12px;
+            
             text-align: left;
-
+            
         }
 
         
     }
     
+`;
+
+export const Meals = styled.div`
+
+    margin-left: 24px;
+
+    h1 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        
+        text-align: left;
+            
+    }
+    
+`;
+
+export const Cards = styled.div`
+    display: flex;
+    gap: 16px
 `;
