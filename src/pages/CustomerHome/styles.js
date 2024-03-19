@@ -11,6 +11,7 @@ export const Container = styled.div`
 
     grid-area: content;
 
+
     max-width: 428px;
 
     margin: 0 auto;
@@ -24,6 +25,9 @@ export const Container = styled.div`
 `;
 
 export const Box = styled.div`
+
+    margin-left: 24px;
+
 
     width: 100%;
     height: 120px;
@@ -77,7 +81,11 @@ export const Box = styled.div`
 
 export const Meals = styled.div`
 
-    margin-left: 24px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 
     h1 {
         font-family: "Poppins", sans-serif;
@@ -91,6 +99,16 @@ export const Meals = styled.div`
 `;
 
 export const Cards = styled.div`
-    display: flex;
-    gap: 16px
+
+    width: 100%;
+
+    max-width: 428px;
+
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
 `;

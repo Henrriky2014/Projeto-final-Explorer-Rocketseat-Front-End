@@ -36,4 +36,8 @@ export default createGlobalStyle`
     button:disabled {
         background-color: ${({theme}) => theme.COLORS.TOMATO_400};
     }
+
+    svg {
+        cursor: pointer;
+    }
 `
