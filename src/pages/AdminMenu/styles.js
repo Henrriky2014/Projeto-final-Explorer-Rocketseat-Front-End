@@ -61,6 +61,7 @@ export const Search = styled.div`
 
     max-width: 372px;
 
+
     margin: 0 auto;
     margin-top: 36px;
 
@@ -83,17 +84,32 @@ export const Search = styled.div`
 
         }
     }
+`;
+
+export const ClickText = styled.div`
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 36px;
+
 
     h1 {
-        
         font-family: 'Poppins', sans-serif;
         font-size: 24px;
         font-weight: 300;
 
-        margin-top: 46px;
         padding: 10px;
 
         border-bottom: 1px solid ${({theme}) => theme.COLORS.DARK_1000};
+        
     }
+
+    h2 {
+
+    }
+
 
 `;

@@ -5,11 +5,11 @@ export const Container = styled.div`
     height: 100%;
 
     display: grid;
+    
     grid-template-areas: 
     "header"
-    "content"
-    "footer";
-
+    "content";
+    
     grid-area: content;
 
 
@@ -86,6 +86,7 @@ export const Meals = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
+
 
 
     h1 {

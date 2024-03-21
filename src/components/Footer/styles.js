@@ -1,8 +1,6 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    grid-area: footer;
-    
     width: 100%;
     height: 77px;
 
@@ -14,6 +12,8 @@ export const Container = styled.div`
     padding: 27px 29px;
     gap: 8px;
 
+    margin-top: 25px;
+
     background-color: ${({theme}) => theme.COLORS.DARK_600};
 
 `;
@@ -22,8 +22,6 @@ export const FooterLogo = styled.div`
     
     display: flex;
     align-items: center;
-    
-    
 
     gap: 6px;
 
