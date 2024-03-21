@@ -7,6 +7,9 @@ import GlobalStyles from './styles/global';
 import theme from './styles/theme';
 
 import { CustomerHome } from './pages/CustomerHome'
+import { AdminHome } from './pages/AdminHome'
+import { CustomerMenu } from './pages/CustomerMenu'
+import { Signin } from './pages/Signin'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

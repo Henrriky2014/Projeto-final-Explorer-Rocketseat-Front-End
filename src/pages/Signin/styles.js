@@ -63,4 +63,5 @@ export const LogoBox = styled.div`
 
 export const InputContent = styled.div`
     margin-bottom: 32px;
+    
 `;

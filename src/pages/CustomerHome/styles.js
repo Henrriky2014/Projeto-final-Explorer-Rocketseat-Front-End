@@ -7,7 +7,8 @@ export const Container = styled.div`
     display: grid;
     grid-template-areas: 
     "header"
-    "content";
+    "content"
+    "footer";
 
     grid-area: content;
 
@@ -93,7 +94,7 @@ export const Meals = styled.div`
         font-size: 12px;
         
         text-align: left;
-            
+        margin-top: 24px;
     }
     
 `;

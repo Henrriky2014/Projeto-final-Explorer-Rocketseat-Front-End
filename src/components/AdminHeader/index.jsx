@@ -1,16 +1,12 @@
-import { BsList, BsFillHexagonFill } from "react-icons/bs";
+import { Container, HeaderMenu, LogoBox } from "./styles";
 
-import { Container, LogoBox, HeaderMenu } from "./styles";
-
-import List from '../../assets/List.svg';
-
-export function CustomerHeader() {
+export function AdminHeader() {
     return (
         <Container>
             <HeaderMenu>
-                <BsList />
+                {/* <BsList /> */}
                 <LogoBox >
-                    <BsFillHexagonFill size={24} />
+                    {/* <BsFillHexagonFill size={24} /> */}
                     <h1>food explorer</h1>
                 </LogoBox>
                 <img src={List} alt="Sacola de Compras" />

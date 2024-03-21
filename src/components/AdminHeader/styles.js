@@ -1,5 +1,4 @@
-import { styled } from "styled-components";
-
+import styled from "styled-components";
 
 export const Container = styled.div`
     grid-area: header;
@@ -20,7 +19,6 @@ export const HeaderMenu = styled.div`
     justify-content: space-around;
 
     margin: 56px 28px 24px;
-
 
     > svg {
         width: 26px;
@@ -48,7 +46,6 @@ export const HeaderMenu = styled.div`
     img {
         cursor: pointer;
     }
-
 `;
 
 export const LogoBox = styled.div`
@@ -73,7 +70,4 @@ export const LogoBox = styled.div`
         font-family: "Roboto", sans-serif;
         font-weight: bold;
     }
-
-    
 `;
-

@@ -1,7 +1,8 @@
 import { Container,Box, Meals, Cards } from "./styles";
 
-import { Header } from "../../components/CustomerHeader";
-import { BuyCard } from "../../components/BuyCard"; 
+import { CustomerHeader } from "../../components/CustomerHeader";
+import { BuyCard } from "../../components/BuyCard";
+import { Footer } from "../../components/Footer";
 
 import eggImg from '../../assets/eggs.png';
 import saladPlate from '../../assets/salad_plate.png'
@@ -17,7 +18,7 @@ export function CustomerHome() {
 
   return(
     <Container>
-      <Header />
+      <CustomerHeader />
       <Box>
         <img src={eggImg} alt="Imagem de vários doces coloridos" />
         <div>
