@@ -2,14 +2,13 @@ import { Container, BuyCounter } from './styles.js'
 
 import { Button } from '../Button';
 
-import { FaRegHeart } from "react-icons/fa";
 import { FaMinus, FaPlus } from "react-icons/fa6";
 
-export function BuyCard( { title, img, value} ) {
+export function BuyCard( { icon: Icon, title, img, value, ...rest} ) {
     return(
         <Container>
+            {Icon && <Icon size={24} />}
             <img src = {img} alt="Prato de Comida" />
-            <FaRegHeart size={24} />
             <h3>{ title }</h3>
             <p>{value}</p>
             <BuyCounter>

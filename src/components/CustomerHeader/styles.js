@@ -11,7 +11,7 @@ export const Container = styled.div`
     align-items: center;
     flex-direction: column;
     
-    background-color: ${({theme}) => theme.COLORS.DARK_900}; //Tem que mudar pra DARK_700
+    background-color: ${({theme}) => theme.COLORS.DARK_700};
 `;
 
 export const HeaderMenu = styled.div`

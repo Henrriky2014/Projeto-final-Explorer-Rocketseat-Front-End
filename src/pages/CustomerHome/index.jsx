@@ -4,6 +4,8 @@ import { CustomerHeader } from "../../components/CustomerHeader";
 import { BuyCard } from "../../components/BuyCard";
 import { Footer } from "../../components/Footer";
 
+import { FaRegHeart } from "react-icons/fa";
+
 import eggImg from '../../assets/eggs.png';
 import saladPlate from '../../assets/salad_plate.png'
 import spaghetti from '../../assets/spaghetti.png';
@@ -30,12 +32,12 @@ export function CustomerHome() {
         <h1>Refeições</h1>
         <Cards>
           <Slider>
-            <BuyCard title="Salada Ravanello >" img={saladPlate} value="R$ 49,97"/>
-            <BuyCard title="Spaguetti Gambe >" img = {spaghetti} value="R$ 79,97" />
-            <BuyCard title="Spaguetti Gambe >" img = {spaghetti} value="R$ 79,97" />
-            <BuyCard title="Spaguetti Gambe >" img = {spaghetti} value="R$ 79,97" />
-            <BuyCard title="Spaguetti Gambe >" img = {spaghetti} value="R$ 79,97" />
-            <BuyCard title="Spaguetti Gambe >" img = {spaghetti} value="R$ 79,97" />
+            <BuyCard icon={FaRegHeart} title="Salada Ravanello >" img={saladPlate} value="R$ 49,97"/>
+            <BuyCard icon={FaRegHeart} title="Spaguetti Gambe >" img = {spaghetti} value="R$ 79,97" />
+            <BuyCard icon={FaRegHeart} title="Spaguetti Gambe >" img = {spaghetti} value="R$ 79,97" />
+            <BuyCard icon={FaRegHeart} title="Spaguetti Gambe >" img = {spaghetti} value="R$ 79,97" />
+            <BuyCard icon={FaRegHeart} title="Spaguetti Gambe >" img = {spaghetti} value="R$ 79,97" />
+            <BuyCard icon={FaRegHeart} title="Spaguetti Gambe >" img = {spaghetti} value="R$ 79,97" />
           </Slider>
         </Cards>
       </Meals>
@@ -43,11 +45,13 @@ export function CustomerHome() {
         <h1>Pratos principais</h1>
         <Cards>
           <Slider>
-            <BuyCard title="Prugna Pie >" img={prugnapie} value="R$ 79,97"/>
-            <BuyCard title="Spaguetti Gambe >" img = {peachypastrie} value="R$ 32,97" />
-            <BuyCard title="Spaguetti Gambe >" img = {spaghetti} value="R$ 79,97" />
-            <BuyCard title="Spaguetti Gambe >" img = {spaghetti} value="R$ 79,97" />
-            <BuyCard title="Spaguetti Gambe >" img = {spaghetti} value="R$ 79,97" />
+            <BuyCard icon={FaRegHeart} title="Prugna Pie >" img={prugnapie} value="R$ 79,97"/>
+            <BuyCard icon={FaRegHeart} title="Spaguetti Gambe >" img = {peachypastrie} value="R$ 32,97" />
+            <BuyCard icon={FaRegHeart} title="Spaguetti Gambe >" img = {spaghetti} value="R$ 79,97" />
+            <BuyCard icon={FaRegHeart} title="Spaguetti Gambe >" img = {spaghetti} value="R$ 79,97" />
+            <BuyCard icon={FaRegHeart} title="Spaguetti Gambe >" img = {spaghetti} value="R$ 79,97" />
+            <BuyCard icon={FaRegHeart} title="Spaguetti Gambe >" img = {spaghetti} value="R$ 79,97" />
+            <BuyCard icon={FaRegHeart} title="Spaguetti Gambe >" img = {spaghetti} value="R$ 79,97" />
           </Slider>
         </Cards>
       </Meals>
@@ -55,11 +59,12 @@ export function CustomerHome() {
         <h1>Pratos principais</h1>
         <Cards>
           <Slider>
-            <BuyCard title="Espresso >" img={espresso} value="R$ 15,97"/>
-            <BuyCard title="Suco de maracujá >" img = {sucodemaracuja} value="R$ 13,97" />
-            <BuyCard title="Spaguetti Gambe >" img = {spaghetti} value="R$ 79,97" />
-            <BuyCard title="Spaguetti Gambe >" img = {spaghetti} value="R$ 79,97" />
-            <BuyCard title="Spaguetti Gambe >" img = {spaghetti} value="R$ 79,97" />
+            <BuyCard icon={FaRegHeart} title="Espresso >" img={espresso} value="R$ 15,97"/>
+            <BuyCard icon={FaRegHeart} title="Suco de maracujá >" img = {sucodemaracuja} value="R$ 13,97" />
+            <BuyCard icon={FaRegHeart} title="Spaguetti Gambe >" img = {spaghetti} value="R$ 79,97" />
+            <BuyCard icon={FaRegHeart} title="Spaguetti Gambe >" img = {spaghetti} value="R$ 79,97" />
+            <BuyCard icon={FaRegHeart} title="Spaguetti Gambe >" img = {spaghetti} value="R$ 79,97" />
+            <BuyCard icon={FaRegHeart} title="Spaguetti Gambe >" img = {spaghetti} value="R$ 79,97" />
           </Slider>
         </Cards>
       </Meals>

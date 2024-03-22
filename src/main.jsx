@@ -11,12 +11,13 @@ import { AdminHome } from './pages/AdminHome';
 import { CustomerMenu } from './pages/CustomerMenu';
 import { Signin } from './pages/Signin';
 import { AdminMenu } from './pages/AdminMenu';
+import { AddPlateMenu } from './pages/AddPlateMenu';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <CustomerMenu />
+      <AddPlateMenu />
     </ThemeProvider>
   </React.StrictMode>,
 )

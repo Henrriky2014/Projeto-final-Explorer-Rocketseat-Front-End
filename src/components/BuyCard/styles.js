@@ -30,7 +30,7 @@ export const Container = styled.div`
         margin-top: 24px;
     }
 
-    svg:nth-child(2) {
+    > svg:nth-child(1) {
         color: ${({theme}) => theme.COLORS.LIGHT_300};
         position: absolute;
         right: 0;

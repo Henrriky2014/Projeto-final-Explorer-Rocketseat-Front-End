@@ -1,16 +1,22 @@
-import { Container, HeaderMenu, LogoBox } from "./styles";
+import { BsList, BsFillHexagonFill } from "react-icons/bs";
+
+import { Container, LogoBox, HeaderMenu, Text } from "./styles";
+
+import { PiPencilSimple } from "react-icons/pi";
+
 
 export function AdminHeader() {
     return (
         <Container>
             <HeaderMenu>
-                {/* <BsList /> */}
+                <BsList />
                 <LogoBox >
-                    {/* <BsFillHexagonFill size={24} /> */}
-                    <h1>food explorer</h1>
+                    <BsFillHexagonFill size={24} />
+                    <Text>
+                        <h2>food explorer</h2>
+                        <p>admin</p>
+                    </Text>
                 </LogoBox>
-                <img src={List} alt="Sacola de Compras" />
-                <p>0</p>
             </HeaderMenu>
         </Container>
     )
